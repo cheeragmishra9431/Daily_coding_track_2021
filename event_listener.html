@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn {
+            padding: 10px;
+            background-color: aqua;
+        }
+
+        #boom {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga voluptatibus, laborum ipsam voluptates deserunt,
+        ipsa eius quasi earum expedita sit natus accusamus sunt atque, quia soluta dignissimos iste voluptatum harum
+        totam repellat cupiditate sed porro! Cumque pariatur nihil quaerat alias praesentium fugit fugiat saepe in quae
+        quis expedita, distinctio nam et aliquid velit assumenda! Quaerat optio, tenetur alias eaque enim quo impedit
+        dolores, perferendis officiis omnis nam? Esse, voluptate molestiae.
+    </div>
+    <div id="boom">you are an asshole</div>
+    <button id="btn" onclick="tgh()">show/hide</button>
+    <script>
+        let para = document.getElementById("container");
+        let btn = document.getElementById("btn");
+        let bm = document.getElementById("boom");
+        function tgh() {
+            if (para.style.display != 'none') {
+                para.style.display = 'none';
+            }
+            else {
+                para.style.display = 'block';
+            }
+        }
+        para.addEventListener('mouseover', function ty(){
+            boom.style.display = 'block';
+        });
+        para.addEventListener('mouseout', function run(){
+            boom.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
