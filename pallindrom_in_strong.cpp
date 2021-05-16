@@ -21,3 +21,4 @@ string str="aaaaaaa";
 cout<<pallindrome(str);
 return 0;
 }
+// #madesome changes
