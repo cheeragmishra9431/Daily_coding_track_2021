@@ -6,3 +6,4 @@ day8:- hashing applications, dat,hashing functions, collision handling, chaining
 day9:- https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/ read about dynamic memory allocation for linked lists... udins malloc, calloc, realloc
       started strings,  c and c++ style strings... 
 day13:- read about linked lists.
+day14:- read about pointers and refernece and problems with arrays.
