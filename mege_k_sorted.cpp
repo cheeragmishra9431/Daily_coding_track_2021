@@ -38,9 +38,10 @@ class Solution
             queue.pop();
             ppi new1;
             new1.i=arr_index;
-
-            new1.j=arr_element_index+1;
-            queue.push()
+            if(arr_element_index<arr[arr_index].size()){
+                new1.j=arr_element_index+1;
+            }
+            queue.push({});
         }
         
     
