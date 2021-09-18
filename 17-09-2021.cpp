@@ -23,6 +23,7 @@ int main(){
     pq.push(101);
     pq.push(102);
     pq.push(1012121);
+    priority_queue<person,vector<int> , cmp>;
     while (pq.empty()==false)
     {
         /* code */
